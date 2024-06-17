@@ -1,0 +1,39 @@
+.movie-item {
+    width: 451px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 12px 0px #00000026;
+    height: 280px;
+
+}
+
+.poster {
+    width: 183px;
+    height: 280px;
+    margin-right: 20px;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 268px;
+
+    &__name {
+        font-size: 20px;
+    }
+
+    &__date {
+        font-size: 12px;
+        color: #827E7E;
+    }
+
+    &__genres {
+        width: 46px;
+        height: 20px;
+    }
+
+    &__description {
+        font-size: 12px;
+    }
+}
